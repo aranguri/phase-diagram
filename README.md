@@ -1,5 +1,5 @@
 # Code for Mixed Dynamics In Linear Networks: Unifying the Lazy and Active Regimes
-This is the official code for the experiments from the paper _Mixed Dynamics In Linear Networks: Unifying the Lazy and Active Regimes_ by Z. Tu, S. Aranguri, and A. Jacot, published at NeurIPS 2024.
+This is the official code for the experiments from the paper [Mixed Dynamics In Linear Networks: Unifying the Lazy and Active Regimes](https://arxiv.org/abs/2405.17580) by Z. Tu, S. Aranguri, and A. Jacot, published at NeurIPS 2024.
 
 ## Dynamics
 The code at `dynamics.ipynb` trains a two-layer linear network using either gradient descent or the self-consistent dynamics in equation (1) from the paper, and compares the MSE error and singular values obtained by these two methods. This code is used to generate the following images (see Figure 1 in the paper.)
